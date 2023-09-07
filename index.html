@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="rosyhaqqy" />
+    <meta name="description" content="CV ku." />
+    <meta
+      name="keywords"
+      content="cv, curriculum-vitae, web, digital, html, css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      crossorigin="anonymous"
+    />
+    <title>Curriculum Vitæ - Moh rosy haqqy aminy</title>
+
+    <style>
+      body {
+        background: linear-gradient(
+          to right,
+          rgb(80, 200, 82),
+          rgb(208, 250, 124),
+          white,
+          rgb(220, 252, 105),
+          rgb(72, 231, 128)
+        );
+        font-family: "Font Awesome", serif;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      header > h1 {
+        text-decoration: underline;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px;
+      }
+
+      caption {
+        font-weight: bold;
+      }
+
+      table {
+        margin: 25px auto;
+        font-size: 20px;
+      }
+
+      table.information th,
+      table.contacts {
+        text-align: left;
+      }
+
+      footer.copyright {
+        text-align: center;
+      }
+
+      .photo {
+        width: 200px;
+        height: 200px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Curriculum Vitæ</h1>
+      <img class="photo" src="./photo.jpeg" />
+    </header>
+    <main>
+      <!-- Tabel data diri -->
+      <table class="information">
+        <caption>
+          Data Diri
+        </caption>
+        <tr>
+          <th>Nama</th>
+          <td>Moh Rosy Haqqy Aminy</td>
+        </tr>
+        <tr>
+          <th>Tempat, Tanggal Lahir</th>
+          <td><span title="gresik">Gresik</span>, 1 Januari 2003</td>
+        </tr>
+        <tr>
+          <th>Agama</th>
+          <td>Islam</td>
+        </tr>
+        <tr>
+          <th>Status Pernikahan</th>
+          <td>Belum Menikah</td>
+        </tr>
+        <tr>
+          <th>Jenis Kelamin</th>
+          <td>Laki-laki</td>
+        </tr>
+        <tr>
+          <th>Pekerjaan</th>
+          <td>Mahasiswa</td>
+        </tr>
+        <tr>
+          <th>Kewarganegaraan</th>
+          <td>WNI (Warga Negara Indonesia)</td>
+        </tr>
+      </table>
+
+      <!-- Tabel riwayat pendidikan -->
+      <table class="education">
+        <caption>
+          Riwayat Pendidikan
+        </caption>
+        <tr>
+          <th>2009-2015</th>
+          <td>MIM 1 UJUNGPANGKAH</td>
+        </tr>
+        <tr>
+          <th>2015-2018</th>
+          <td>Sekolah Menengah Pertama Negeri 1 Sidayu</td>
+        </tr>
+        <tr>
+          <th>2018-2021</th>
+          <td>Sekolah Menengah Atas Negeri 1 Gresik</td>
+        </tr>
+        <tr>
+          <th>2021-[<span title="Ekspektasi tahun kelulusan">2025</span>]</th>
+          <td>Institut Teknologi Sepuluh Nopember (Teknik Informatika)</td>
+        </tr>
+      </table>
+
+      <!-- Tabel kontak -->
+      <table class="contacts">
+        <caption>
+          Blog dan Github
+        </caption>
+
+        <tr>
+          <th><i class="fab fa-github"></i> GitHub</th>
+          <td><a href="https://github.com/hqlco">hqlco</a></td>
+        </tr>
+        <tr>
+          <th><i class="fab fa-blogger"></i> Blogger</th>
+          <td>
+            <a href="https://rosyhaqqy.blogspot.com/">Rosy haqqy</a>
+          </td>
+        </tr>
+      </table>
+    </main>
+    <footer class="copyright">
+      <!-- Copyright notice -->
+      &copy; 2023 Rosy Haqqy
+    </footer>
+  </body>
+</html>
